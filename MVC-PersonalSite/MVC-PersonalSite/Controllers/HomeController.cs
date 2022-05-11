@@ -17,6 +17,10 @@ namespace MVC_PersonalSite.Controllers
         {
             return View();
         }
+        public IActionResult Contact()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
