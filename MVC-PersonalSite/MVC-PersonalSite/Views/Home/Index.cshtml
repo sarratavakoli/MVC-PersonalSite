@@ -55,8 +55,10 @@
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="single-about-add-info">
-										<h3>Email</h3>
-										<p><a href="mailto:sarra.tavakoli@gmail.com">sarra.tavakoli@gmail.com</a></p>
+										@*<h3>Email</h3>
+										<p><a href="mailto:sarra.tavakoli@gmail.com">sarra.tavakoli@gmail.com</a></p>*@
+										
+										<a asp-controller="Home" asp-action="Contact" class="about-btn">Contact Me</a>
 									</div>
 								</div>
 								<div class="col-sm-4">
@@ -88,11 +90,11 @@
 										</a>
 
 									</li><!-- / li -->
-									<li>
+									@*<li>
 										<a href="https://www.instagram.com/sarradarling/" target="_blank">
 											<i class="fa fa-instagram" aria-hidden="true"></i>
 										</a>
-									</li><!-- / li -->
+									</li><!-- / li -->*@
 								</ul><!-- / ul -->
 							</div><!-- /.about-list-icon -->
 
@@ -122,6 +124,14 @@
 										<div class="experience-time text-right">
 											<h2>07/2019 - 03/2021</h2>
 											<h3>software support</h3>
+											@*<img src="@Url.Content("~/assets/images/symplr_logov2.svg")"  style="width:170px;border-width:0px;border:0px;padding-top:15px;" *@
+											@*width="170" alt="symplr_logo" title="symplr_logo" onerror="this.onerror=null; this.src='/assets/images/symplr_logo.png'"/>*@
+
+											<object type="image/svg+xml" data="~/assets/images/symplr_logo.svg" style="width:170px;border-width:0px;border:0px;padding-top:15px;"></object>
+
+											@*<div class="svg">
+
+											</div>*@
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -210,6 +220,13 @@
 												11/2013 - 10/2015
 											</h2>
 											<h3>surgical coordinator</h3>
+											@*<img src="https://www.washingtoneye.com/wp-content/themes/WashingtonEye/_images/logo-weps.svg" 
+												data-src="https://www.washingtoneye.com/wp-content/themes/WashingtonEye/_images/logo-weps.svg" 
+												alt="weps_logo" title="weps_logo"
+												style="width:180px;border-width:0px;border:0px;padding-top:15px;" width="180">*@
+
+											<object type="image/svg+xml" data="~/assets/images/weps_logo.svg" 
+											style="width:190px;border-width:0px;border:0px;padding-top:15px;"></object>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -226,6 +243,10 @@
 										<div class="experience-time text-right">
 											<h2>3/2012 - 11/2013</h2>
 											<h3>physical medicine & rehabilitation aide</h3>
+											@*<img src="https://www.hopkinsmedicine.org/sebin/p/c/hopkins-logo.svg"
+													alt="hopkins_logo" title="hopkins_logo"
+													style="width:200px;border-width:0px;border:0px;padding-top:15px;" width="200">*@
+											<object type="image/svg+xml" data="~/assets/images/hopkins_logo.svg" style="width:210px;border-width:0px;border:0px;padding-top:15px;"></object>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -298,6 +319,10 @@
 												01/2008 - 12/2009
 											</h2>
 											<h3>graphic designer</h3>
+											@*<img src="assets/images/mps_logo.svg" 
+											title="montgomeryprintingsolutions_logo" alt="montgomeryprintingsolutions_logo" width="140"
+											style="border-width:0px;border:0px;padding-top:15px;">*@
+											<object type="image/svg+xml" data="~/assets/images/mps_logo.svg" style="width:170px;border-width:0px;border:0px;padding-top:15px;"></object>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -314,7 +339,9 @@
 										<div class="experience-time text-right">
 											<h2>01/2006 - 12/2007</h2>
 											<h3>biomedical engineering assistant</h3>
-										</div>
+											@*<img src="https://www.medstarhealth.org/-/media/themes/mho/medstar/mho-theme/images/partial-design/header/logo.svg?iar=0&hash=427B5894065C2E75C566D94E5A51CA5F" 
+											alt="MedStar health logo" style="border-width:0px;border:0px;padding-top:15px;" width="180">	*@	
+											<object type="image/svg+xml" data="~/assets/images/whc_logo.svg" style="width:170px;border-width:0px;border:0px;padding-top:15px;"></object></div>
 										<!--/.experience-time-->
 									</div>
 									<!--/.col-->
@@ -476,55 +503,55 @@
 
 							<div class="col-sm-4">
 								<div class="item">
-									<img src="assets/images/portfolio/p1.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="#">
-											text game<BR>
-											coming soon
-										</a>
-									</div><!-- /.isotope-overlay -->
+									<a href="#">
+										<img src="assets/images/portfolio/p1.jpg" alt="portfolio image" />
+										<div class="isotope-overlay">
+												text game<BR>
+												coming soon
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 								<div class="item">
-									<img src="assets/images/portfolio/p2.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="#">
-											storefront<BR>
-											coming soon
-										</a>
+									<a href="#">
+										<img src="assets/images/portfolio/p2.jpg" alt="portfolio image" />
+										<div class="isotope-overlay">
+												storefront<BR>
+												coming soon
 									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/p3.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="#">
-											to do API<BR>
-											coming soon
-										</a>
-									</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 							</div><!-- /.col -->
 
 							<div class="col-sm-4">
 								<div class="item">
-									<img src="assets/images/portfolio/p4.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="#">
-											react to do <BR>
-											coming soon
-										</a>
+									<a href="#">
+										<img src="assets/images/portfolio/p3.jpg" alt="portfolio image" />
+										<div class="isotope-overlay">
+												to do API<BR>
+												coming soon
 									</div><!-- /.isotope-overlay -->
+									</a>
+								</div><!-- /.item -->
+							</div><!-- /.col -->
+
+							<div class="col-sm-4">
+								<div class="item">
+									<a href="#">
+										<img src="assets/images/portfolio/p4.jpg" alt="portfolio image" />
+										<div class="isotope-overlay">
+												react to do <BR>
+												coming soon
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 								<div class="item">
-									<img src="assets/images/portfolio/p5.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="#">
-											SAT project<BR>
-											coming soon
-										</a>
+									<a href="#">
+										<img src="assets/images/portfolio/p5.jpg" alt="portfolio image" />
+										<div class="isotope-overlay">
+												SAT project<BR>
+												coming soon
 									</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 							</div><!-- /.col -->
 						</div><!-- /.row -->
@@ -554,76 +581,76 @@
 
 							<div class="col-sm-3">
 								<div class="item">
-									<img src="assets/images/team/old2/david.jpg" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="http://david-sleezer.com/">
-											David Sleezer<BR>
-											david-sleezer.com
-										</a>
-									</div><!-- /.isotope-overlay -->
+									<a href="http://david-sleezer.com/" target="_blank">
+										<img src="assets/images/team/old2/david.jpg" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												David Sleezer<BR>
+												david-sleezer.com
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 								<div class="item">
-									<img src="assets/images/team/old2/derek.jpg" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="http://www.derek-holland.com/">
-											Derek Holland<BR>
-											derek-holland.com<BR>
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-3">
-								<div class="item">
-									<img src="assets/images/team/old2/dawson.jpg" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="#">
-											Dawson Meier<BR>
-											coming soon
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-								<div class="item">
-									<img src="assets/images/team/old2/roan.png" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="http://www.rolecoded.com">
-											Roan Leffew<BR>
-											rolecoded.com
-										</a>
-									</div><!-- /.isotope-overlay -->
+									<a href="http://www.derek-holland.com/" target="_blank">
+										<img src="assets/images/team/old2/derek.jpg" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												Derek Holland<BR>
+												derek-holland.com<BR>
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 							</div><!-- /.col -->
 
 							<div class="col-sm-3">
 								<div class="item">
-									<img src="assets/images/team/old2/josh.jpg" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="http://joshdchristian13.com/index.html">
-											Joshua Christian<BR>
-											joshdchristian13.com
-										</a>
-									</div><!-- /.isotope-overlay -->
+									<a href="http://www.dawsonmeierdev.com" target="_blank">
+										<img src="assets/images/team/old2/dawson.jpg" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												Dawson Meier<BR>
+												www.dawsonmeierdev.com
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 								<div class="item">
-									<img src="assets/images/team/old2/tanner.jpg" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="http://tannermillerdev.com">
-											Tanner Miller<BR>
-											tannermillerdev.com
-										</a>
-									</div><!-- /.isotope-overlay -->
+									<a href="http://www.rolecoded.com" target="_blank">
+										<img src="assets/images/team/old2/roan.png" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												Roan Leffew<BR>
+												rolecoded.com
+										</div><!-- /.isotope-overlay -->
+									</a>
+								</div><!-- /.item -->
+							</div><!-- /.col -->
+
+							<div class="col-sm-3">
+								<div class="item">
+									<a href="http://joshdchristian13.com/index.html" target="_blank">
+										<img src="assets/images/team/old2/josh.jpg" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												Joshua Christian<BR>
+												joshdchristian13.com
+										</div><!-- /.isotope-overlay -->
+									</a>
+								</div><!-- /.item -->
+								<div class="item">
+									<a href="http://tannermillerdev.com" target="_blank">
+										<img src="assets/images/team/old2/tanner.jpg" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												Tanner Miller<BR>
+												tannermillerdev.com
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 							</div><!-- /.col -->
 
 							<div class="col-sm-3">	
 								<div class="item">
-									<img src="assets/images/team/old2/lance.jpg" alt="photograph of fellow boot camp member" />
-									<div class="isotope-overlay">
-										<a href="http://www.lance-johnson.com/">
-											Lance Johnson<BR>
-											lance-johnson.com
-										</a>
-									</div><!-- /.isotope-overlay -->
+									<a href="http://www.lance-johnson.com/" target="_blank">
+										<img src="assets/images/team/old2/lance.jpg" alt="photograph of fellow boot camp member" />
+										<div class="isotope-overlay">
+												Lance Johnson<BR>
+												lance-johnson.com
+										</div><!-- /.isotope-overlay -->
+									</a>
 								</div><!-- /.item -->
 							</div><!-- /.col -->
 

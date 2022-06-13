@@ -6,47 +6,47 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<!-- The above 3 meta tags *must* come first in the head. any other head content must come *after* these tags -->
 
 	<!--font-family-->
 	<link
-		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp; subset=devanagari, latin-ext"
 		rel="stylesheet">
 
 	<!-- title of site -->
 	<title>Sarra</title>
 
 	<!-- For favicon png -->
-	<link rel="shortcut icon" type="image/icon" href="/assets/logo/favicon.png" />
+	<link rel="shortcut icon" type="image/icon" href="~/assets/logo/favicon.png" />
 
 	<!--font-awesome.min.css-->
-	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
 
 	<!--flat icon css-->
-	<link rel="stylesheet" href="/assets/css/flaticon.css">
+	<link rel="stylesheet" href="~/assets/css/flaticon.css">
 
 	<!--animate.css-->
-	<link rel="stylesheet" href="/assets/css/animate.css">
+	<link rel="stylesheet" href="~/assets/css/animate.css">
 
 	<!--owl.carousel.css-->
-	<link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="~/assets/css/owl.theme.default.min.css">
 
 	<!--bootstrap.min.css-->
-	@*<link rel="stylesheet" href="@Url.Content("~/assets/css/bootstrap.min.css")">*@
-	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
 
 	<!-- bootsnav -->
-	<link rel="stylesheet" href="/assets/css/bootsnav.css">
+	<link rel="stylesheet" href="~/assets/css/bootsnav.css">
 
 	<!--style.css-->
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="~/assets/css/style.css">
 
 	<!--responsive.css-->
-	<link rel="stylesheet" href="/assets/css/responsive.css">
+	<link rel="stylesheet" href="~/assets/css/responsive.css">
 
 	<!-- custom css -->
-	<link rel="stylesheet" href="/assets/css/custom.css">
+	<link rel="stylesheet" href="~/assets/css/custom.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,12 +56,13 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		@RenderSection("links", required: false);
+		
 </head>
 
 <body>
 	<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. 
+			Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
 	<!-- top-area Start -->
@@ -90,10 +91,26 @@
 						<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 							<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="smooth-menu active"></li>
-								<li class="smooth-menu"><a href="#education">education</a></li>
-								<li class="smooth-menu"><a href="#experience">experience</a></li>
-								<li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-								<li class="smooth-menu"><a href="#links">links</a></li>
+
+								<li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "" : "smooth-menu")">
+									<a href="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? $"{@Url.Action("Index", "Home")}#experience" : "#experience")">experience</a>
+								</li>
+
+								
+								<li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "" : "smooth-menu")">
+									<a href="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? $"{@Url.Action("Index", "Home")}#education" : "#education")">education</a>
+								</li>
+
+								
+								<li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "" : "smooth-menu")">
+									<a href="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? $"{@Url.Action("Index", "Home")}#portfolio" : "#portfolio")">portfolio</a>
+								</li>
+
+								
+								<li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "" : "smooth-menu")">
+									<a href="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? $"{@Url.Action("Index", "Home")}#links" : "#links")">links</a>
+								</li>
+
 								<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 							</ul>
 							<!--/.nav -->
@@ -117,7 +134,10 @@
 	<!--footer-copyright start-->
 	<footer id="footer-copyright" class="footer-copyright">
 		<div class="container">
-			<div class="hm-footer-copyright text-center">
+			<div class="hm-footer-copyright text-center">				
+				<div class="footerButton">
+					<a asp-controller="Home" asp-action="Contact" class="footer-button">Contact Me</a>
+				</div>
 				<p>
 					&copy; copyright @DateTime.Now.Year Sarra Tavakoli
 				</p>
@@ -139,39 +159,39 @@
 	<!--/.footer-copyright-->
 	<!--footer-copyright end-->	
 
-	<script src="/assets/js/jquery.js"></script>
+	<script src="~/assets/js/jquery.js"></script>
 
 	<!--modernizr.min.js-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 	<!--bootstrap.min.js-->
-	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="~/assets/js/bootstrap.min.js"></script>
 
 	<!-- bootsnav js -->
-	<script src="/assets/js/bootsnav.js"></script>
+	<script src="~/assets/js/bootsnav.js"></script>
 
 	<!-- jquery.sticky.js -->
-	<script src="/assets/js/jquery.sticky.js"></script>
+	<script src="~/assets/js/jquery.sticky.js"></script>
 
 	<!-- for progress bar start-->
 
 	<!-- progressbar js -->
-	<script src="/assets/js/progressbar.js"></script>
+	<script src="~/assets/js/progressbar.js"></script>
 
 	<!-- appear js -->
-	<script src="/assets/js/jquery.appear.js"></script>
+	<script src="~/assets/js/jquery.appear.js"></script>
 
 	<!-- for progress bar end -->
 
 	<!--owl.carousel.js-->
-	<script src="/assets/js/owl.carousel.min.js"></script>
+	<script src="~/assets/js/owl.carousel.min.js"></script>
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
 
 	<!--Custom JS-->
-	<script src="/assets/js/custom.js"></script>
+	<script src="~/assets/js/custom.js"></script>
 
 
 	<!-- RenderSection() for Scripts -->

@@ -196,3 +196,71 @@ nav.navbar.bootsnav.navbar-fixed {
 .single-about-relative {
     position: relative;
 }
+
+.about-btn {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #ABA0FF;
+    border: 1px solid #ABA0FF;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+    text-align: center;
+}
+
+.isotope-overlay {
+    text-align: center;
+    color: #fff;
+}
+
+/*.svg {
+    background-image: Url("../../assets/images/symplr_logov2.svg");
+    background-size: contain;
+}*/
+
+.clean-input {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    padding: 1px 6px;
+    border-width: 0px;
+    border-style: outset;
+    /*border-color: ;*/
+    border-image: none;
+}
+
+.footer-copyright p {
+    margin-top: 0;
+}
+
+.footer-button {
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #ABA0FF;
+    border: 1px solid #ABA0FF;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+    text-align: center;
+}
+
