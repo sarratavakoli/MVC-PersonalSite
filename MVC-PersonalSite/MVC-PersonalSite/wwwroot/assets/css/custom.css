@@ -264,3 +264,7 @@ nav.navbar.bootsnav.navbar-fixed {
     text-align: center;
 }
 
+.portfolio-shadow {
+    box-shadow: 0 5px 20px rgb(14 25 80 / 30%);
+}
+

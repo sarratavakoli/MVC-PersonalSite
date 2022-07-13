@@ -8,118 +8,118 @@
     <RootNamespace>MVC_PersonalSite</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="wwwroot\assets\css\animate.css" />
-    <Content Remove="wwwroot\assets\css\bootsnav.css" />
-    <Content Remove="wwwroot\assets\css\bootstrap.min.css" />
-    <Content Remove="wwwroot\assets\css\custom.css" />
-    <Content Remove="wwwroot\assets\css\flaticon.css" />
-    <Content Remove="wwwroot\assets\css\font-awesome.min.css" />
-    <Content Remove="wwwroot\assets\css\owl.carousel.min.css" />
-    <Content Remove="wwwroot\assets\css\owl.theme.default.min.css" />
-    <Content Remove="wwwroot\assets\css\responsive.css" />
-    <Content Remove="wwwroot\assets\css\style.css" />
-    <Content Remove="wwwroot\assets\download\browney.txt" />
-    <Content Remove="wwwroot\assets\download\Sarra_Tavakoli_Resume.docx" />
-    <Content Remove="wwwroot\assets\fonts\Flaticon.eot" />
-    <Content Remove="wwwroot\assets\fonts\Flaticon.svg" />
-    <Content Remove="wwwroot\assets\fonts\Flaticon.ttf" />
-    <Content Remove="wwwroot\assets\fonts\Flaticon.woff" />
-    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.eot" />
-    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.svg" />
-    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
-    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.woff" />
-    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
-    <Content Remove="wwwroot\assets\fonts\FontAwesome.otf" />
-    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
-    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Remove="wwwroot\assets\fonts\Linearicons-Free.eot" />
-    <Content Remove="wwwroot\assets\fonts\Linearicons-Free.svg" />
-    <Content Remove="wwwroot\assets\fonts\Linearicons-Free.ttf" />
-    <Content Remove="wwwroot\assets\fonts\Linearicons-Free.woff" />
-    <Content Remove="wwwroot\assets\fonts\Linearicons-Free.woff2" />
-    <Content Remove="wwwroot\assets\images\about\old.jpg" />
-    <Content Remove="wwwroot\assets\images\about\profile_image.jpg" />
-    <Content Remove="wwwroot\assets\images\about\profile_image2.jpg" />
-    <Content Remove="wwwroot\assets\images\about\welcome-banner.jpg" />
-    <Content Remove="wwwroot\assets\images\about\welcome-banner1.jpg" />
-    <Content Remove="wwwroot\assets\images\about\welcome-banner2.jpg" />
-    <Content Remove="wwwroot\assets\images\beach.jpg" />
-    <Content Remove="wwwroot\assets\images\city.jpg" />
-    <Content Remove="wwwroot\assets\images\clients\c1.png" />
-    <Content Remove="wwwroot\assets\images\clients\c2.png" />
-    <Content Remove="wwwroot\assets\images\clients\c3.png" />
-    <Content Remove="wwwroot\assets\images\clients\c4.png" />
-    <Content Remove="wwwroot\assets\images\clients\c5.png" />
-    <Content Remove="wwwroot\assets\images\clients\c6.png" />
-    <Content Remove="wwwroot\assets\images\clients\c7.png" />
-    <Content Remove="wwwroot\assets\images\clouds.jpg" />
-    <Content Remove="wwwroot\assets\images\portfolio\p1.jpg" />
-    <Content Remove="wwwroot\assets\images\portfolio\p2.jpg" />
-    <Content Remove="wwwroot\assets\images\portfolio\p3.jpg" />
-    <Content Remove="wwwroot\assets\images\portfolio\p4.jpg" />
-    <Content Remove="wwwroot\assets\images\portfolio\p5.jpg" />
-    <Content Remove="wwwroot\assets\images\sunset.jpg" />
-    <Content Remove="wwwroot\assets\images\team\adjusted transparent\david.png" />
-    <Content Remove="wwwroot\assets\images\team\adjusted transparent\derek.png" />
-    <Content Remove="wwwroot\assets\images\team\adjusted transparent\jon.png" />
-    <Content Remove="wwwroot\assets\images\team\adjusted transparent\josh.png" />
-    <Content Remove="wwwroot\assets\images\team\adjusted transparent\lance.png" />
-    <Content Remove="wwwroot\assets\images\team\adjusted transparent\tanner.png" />
-    <Content Remove="wwwroot\assets\images\team\david.png" />
-    <Content Remove="wwwroot\assets\images\team\derek.png" />
-    <Content Remove="wwwroot\assets\images\team\josh.png" />
-    <Content Remove="wwwroot\assets\images\team\lance.png" />
-    <Content Remove="wwwroot\assets\images\team\old2\david.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old2\derek.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old2\jon.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old2\josh.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old2\lance.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old2\tanner.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\david.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\derek.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\jon.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\josh.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\lance.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\placeholder.jpg" />
-    <Content Remove="wwwroot\assets\images\team\old\tanner.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\david.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\derek.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\jon.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\josh.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\lance.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\placeholder.jpg" />
-    <Content Remove="wwwroot\assets\images\team\purple\tanner.jpg" />
-    <Content Remove="wwwroot\assets\images\team\tanner.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\david.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\derek.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\jon.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\josh.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\lance.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\tanner.png" />
-    <Content Remove="wwwroot\assets\images\team\transparent bg\transparent bg.psd" />
-    <Content Remove="wwwroot\assets\images\team\transparent resized\custom.psd" />
-    <Content Remove="wwwroot\assets\images\waves.jpg" />
-    <Content Remove="wwwroot\assets\js\bootsnav.js" />
-    <Content Remove="wwwroot\assets\js\bootstrap.min.js" />
-    <Content Remove="wwwroot\assets\js\custom.js" />
-    <Content Remove="wwwroot\assets\js\jquery.appear.js" />
-    <Content Remove="wwwroot\assets\js\jquery.js" />
-    <Content Remove="wwwroot\assets\js\jquery.sticky.js" />
-    <Content Remove="wwwroot\assets\js\owl.carousel.min.js" />
-    <Content Remove="wwwroot\assets\js\progressbar.js" />
-    <Content Remove="wwwroot\assets\logo\favicon.png" />
-    <Content Remove="wwwroot\assets\logo\logo.png" />
-    <Content Remove="wwwroot\assets\logo\star.png" />
-  </ItemGroup>
+  <!--<ItemGroup>
+    <Content Include="wwwroot\assets\css\animate.css" />
+    <Content Include="wwwroot\assets\css\bootsnav.css" />
+    <Content Include="wwwroot\assets\css\bootstrap.min.css" />
+    <Content Include="wwwroot\assets\css\custom.css" />
+    <Content Include="wwwroot\assets\css\flaticon.css" />
+    <Content Include="wwwroot\assets\css\font-awesome.min.css" />
+    <Content Include="wwwroot\assets\css\owl.carousel.min.css" />
+    <Content Include="wwwroot\assets\css\owl.theme.default.min.css" />
+    <Content Include="wwwroot\assets\css\responsive.css" />
+    <Content Include="wwwroot\assets\css\style.css" />
+    <Content Include="wwwroot\assets\download\browney.txt" />
+    <Content Include="wwwroot\assets\download\Sarra_Tavakoli_Resume.docx" />
+    <Content Include="wwwroot\assets\fonts\Flaticon.eot" />
+    <Content Include="wwwroot\assets\fonts\Flaticon.svg" />
+    <Content Include="wwwroot\assets\fonts\Flaticon.ttf" />
+    <Content Include="wwwroot\assets\fonts\Flaticon.woff" />
+    <Content Include="wwwroot\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\assets\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\assets\fonts\Linearicons-Free.eot" />
+    <Content Include="wwwroot\assets\fonts\Linearicons-Free.svg" />
+    <Content Include="wwwroot\assets\fonts\Linearicons-Free.ttf" />
+    <Content Include="wwwroot\assets\fonts\Linearicons-Free.woff" />
+    <Content Include="wwwroot\assets\fonts\Linearicons-Free.woff2" />
+    <Content Include="wwwroot\assets\images\about\old.jpg" />
+    <Content Include="wwwroot\assets\images\about\profile_image.jpg" />
+    <Content Include="wwwroot\assets\images\about\profile_image2.jpg" />
+    <Content Include="wwwroot\assets\images\about\welcome-banner.jpg" />
+    <Content Include="wwwroot\assets\images\about\welcome-banner1.jpg" />
+    <Content Include="wwwroot\assets\images\about\welcome-banner2.jpg" />
+    <Content Include="wwwroot\assets\images\beach.jpg" />
+    <Content Include="wwwroot\assets\images\city.jpg" />
+    <Content Include="wwwroot\assets\images\clients\c1.png" />
+    <Content Include="wwwroot\assets\images\clients\c2.png" />
+    <Content Include="wwwroot\assets\images\clients\c3.png" />
+    <Content Include="wwwroot\assets\images\clients\c4.png" />
+    <Content Include="wwwroot\assets\images\clients\c5.png" />
+    <Content Include="wwwroot\assets\images\clients\c6.png" />
+    <Content Include="wwwroot\assets\images\clients\c7.png" />
+    <Content Include="wwwroot\assets\images\clouds.jpg" />
+    <Content Include="wwwroot\assets\images\portfolio\p1.jpg" />
+    <Content Include="wwwroot\assets\images\portfolio\p2.jpg" />
+    <Content Include="wwwroot\assets\images\portfolio\p3.jpg" />
+    <Content Include="wwwroot\assets\images\portfolio\p4.jpg" />
+    <Content Include="wwwroot\assets\images\portfolio\p5.jpg" />
+    <Content Include="wwwroot\assets\images\sunset.jpg" />
+    <Content Include="wwwroot\assets\images\team\adjusted transparent\david.png" />
+    <Content Include="wwwroot\assets\images\team\adjusted transparent\derek.png" />
+    <Content Include="wwwroot\assets\images\team\adjusted transparent\jon.png" />
+    <Content Include="wwwroot\assets\images\team\adjusted transparent\josh.png" />
+    <Content Include="wwwroot\assets\images\team\adjusted transparent\lance.png" />
+    <Content Include="wwwroot\assets\images\team\adjusted transparent\tanner.png" />
+    <Content Include="wwwroot\assets\images\team\david.png" />
+    <Content Include="wwwroot\assets\images\team\derek.png" />
+    <Content Include="wwwroot\assets\images\team\josh.png" />
+    <Content Include="wwwroot\assets\images\team\lance.png" />
+    <Content Include="wwwroot\assets\images\team\old2\david.jpg" />
+    <Content Include="wwwroot\assets\images\team\old2\derek.jpg" />
+    <Content Include="wwwroot\assets\images\team\old2\jon.jpg" />
+    <Content Include="wwwroot\assets\images\team\old2\josh.jpg" />
+    <Content Include="wwwroot\assets\images\team\old2\lance.jpg" />
+    <Content Include="wwwroot\assets\images\team\old2\tanner.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\david.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\derek.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\jon.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\josh.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\lance.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\placeholder.jpg" />
+    <Content Include="wwwroot\assets\images\team\old\tanner.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\david.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\derek.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\jon.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\josh.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\lance.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\placeholder.jpg" />
+    <Content Include="wwwroot\assets\images\team\purple\tanner.jpg" />
+    <Content Include="wwwroot\assets\images\team\tanner.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\david.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\derek.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\jon.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\josh.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\lance.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\tanner.png" />
+    <Content Include="wwwroot\assets\images\team\transparent bg\transparent bg.psd" />
+    <Content Include="wwwroot\assets\images\team\transparent resized\custom.psd" />
+    <Content Include="wwwroot\assets\images\waves.jpg" />
+    <Content Include="wwwroot\assets\js\bootsnav.js" />
+    <Content Include="wwwroot\assets\js\bootstrap.min.js" />
+    <Content Include="wwwroot\assets\js\custom.js" />
+    <Content Include="wwwroot\assets\js\jquery.appear.js" />
+    <Content Include="wwwroot\assets\js\jquery.js" />
+    <Content Include="wwwroot\assets\js\jquery.sticky.js" />
+    <Content Include="wwwroot\assets\js\owl.carousel.min.js" />
+    <Content Include="wwwroot\assets\js\progressbar.js" />
+    <Content Include="wwwroot\assets\logo\favicon.png" />
+    <Content Include="wwwroot\assets\logo\logo.png" />
+    <Content Include="wwwroot\assets\logo\star.png" />
+  </ItemGroup>-->
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Content Include="wwwroot\.vscode\settings.json" />
     <Content Include="_Archive\.vscode\settings.json" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.4" />
@@ -132,7 +132,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Include="wwwroot\assets\css\animate.css" />
     <None Include="wwwroot\assets\css\bootsnav.css" />
     <None Include="wwwroot\assets\css\bootstrap.min.css" />
@@ -238,6 +238,6 @@
     <None Include="wwwroot\assets\logo\favicon.png" />
     <None Include="wwwroot\assets\logo\logo.png" />
     <None Include="wwwroot\assets\logo\star.png" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>
